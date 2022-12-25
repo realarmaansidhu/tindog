@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* * Headings */
+
+.main-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.card-body-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-header-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.feature-box-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* * Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* * Navigation Bar */
+
+.navbar {
+    padding: 0rem 0rem 2rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/* * Title */
+
+#title .container-fluid {
+    padding: 1% 15% 2%;
+    text-align: left;
+}
+
+.title-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-img {
+    transform: rotate(20deg);
+    width: 60%;
+    margin-left: 10%;
+}
+
+
+/* * Features Section */
+
+.feature-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+
+/* *Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* * Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* * Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.cta-btn {
+    margin: 4% 1.5% 5%;    
+}
+
+.f-icons {
+    padding: 0% 1%;
+}
+
+@media (max-width: 1028px) {
+    .title-img {
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
